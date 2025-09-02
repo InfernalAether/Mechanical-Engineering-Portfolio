@@ -61,6 +61,16 @@ nav a:hover {
   }
 }
 
+/* Global image resizing */
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
 
 /* Sections */
 section {
