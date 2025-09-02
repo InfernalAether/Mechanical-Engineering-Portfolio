@@ -196,3 +196,29 @@ footer {
   }
 }
 
+#about-section-body .about-me-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#about-section-body .about-me-images img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#about-section-body .about-me-images img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  #about-section-body .about-me-images img {
+    max-width: 100%;
+  }
+}
