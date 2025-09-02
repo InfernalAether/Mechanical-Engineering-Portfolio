@@ -212,15 +212,6 @@ footer {
   margin-top: 2rem;
 }
 
-#about-section-body .about-me-images img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-  display: block;
-  margin: 1rem auto; /* center the image */
-}
-
 #about-section-body .about-me-images img:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 20px rgba(0,0,0,0.15);
