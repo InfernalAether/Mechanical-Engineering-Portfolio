@@ -33,27 +33,31 @@ nav {
   background: #ddd;
 }
 
-/* Navigation Links */
+/* Navigation Links - Improved Readability */
 nav a {
-  margin: 0 1rem;
+  margin: 0 0.8rem;        /* space between links */
+  padding: 0.3rem 0.6rem;  /* small padding for clickable area */
   text-decoration: none;
   color: #333;
-  font-weight: 600;       /* slightly bolder */
-  font-size: 1.4rem;      /* slightly bigger */
-  transition: color 0.3s, transform 0.2s;
+  font-weight: 600;        /* slightly bolder */
+  font-size: 1.45rem;      /* slightly bigger */
+  transition: color 0.3s, transform 0.2s, background 0.2s;
+  border-radius: 6px;      /* subtle rounding for hover effect */
 }
 
 /* Hover effect */
 nav a:hover {
-  color: #4b6cb7;
+  color: #fff;
+  background-color: #4b6cb7; /* subtle highlight */
   transform: scale(1.1);
 }
 
 /* Responsive for smaller screens */
 @media (max-width: 600px) {
   nav a {
-    font-size: 1.1rem;    /* slightly smaller on mobile */
-    margin: 0 0.5rem;
+    font-size: 1.15rem;      /* slightly smaller on mobile */
+    margin: 0 0.4rem;
+    padding: 0.25rem 0.5rem;
   }
 }
 
