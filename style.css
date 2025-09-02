@@ -33,18 +33,30 @@ nav {
   background: #ddd;
 }
 
+/* Navigation Links */
 nav a {
   margin: 0 1rem;
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: 600;       /* slightly bolder */
+  font-size: 1.4rem;      /* slightly bigger */
   transition: color 0.3s, transform 0.2s;
 }
 
+/* Hover effect */
 nav a:hover {
   color: #4b6cb7;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
+
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+  nav a {
+    font-size: 1.1rem;    /* slightly smaller on mobile */
+    margin: 0 0.5rem;
+  }
+}
+
 
 /* Sections */
 section {
