@@ -150,3 +150,49 @@ footer {
   }
 }
 
+/* About Me Section Styles */
+#about-section-body {
+  font-size: 1.5rem;       /* larger body text */
+  line-height: 2;           /* spacing between lines */
+  text-align: center;       /* center content */
+  max-width: 700px;         /* limits width */
+  margin: 3rem auto;        /* spacing around section */
+  padding: 1rem;            /* small padding inside */
+}
+
+#about-section-body h2 {
+  font-size: 2.5rem;        /* large heading */
+  margin-bottom: 1.5rem;
+  color: #4b6cb7;
+}
+
+/* Links inside About Me (if any) */
+#about-section-body a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #4b6cb7;
+  text-decoration: none;
+}
+
+#about-section-body a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+  #about-section-body {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    padding: 0.5rem;
+    margin: 2rem auto;
+  }
+
+  #about-section-body h2 {
+    font-size: 2rem;
+  }
+
+  #about-section-body a {
+    font-size: 1.4rem;
+  }
+}
+
