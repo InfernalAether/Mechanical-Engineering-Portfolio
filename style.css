@@ -1,5 +1,6 @@
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Story Script', cursive;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -8,12 +9,24 @@ body {
 }
 
 header {
-  background: #282c34;
+  background: linear-gradient(135deg, #282c34, #4b6cb7);
   color: #fff;
-  padding: 2rem;
+  padding: 3rem 2rem;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
+header h1 {
+  font-size: 3rem;
+  margin: 0 0 0.5rem 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Navigation */
 nav {
   padding: 1rem;
   text-align: center;
@@ -24,19 +37,53 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
   color: #333;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.2s;
 }
 
+nav a:hover {
+  color: #4b6cb7;
+  transform: scale(1.05);
+}
+
+/* Sections */
 section {
   padding: 2rem;
-  margin: 1rem auto;
+  margin: 2rem auto;
   max-width: 800px;
   background: #fff;
-  border-radius: 8px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+  color: #4b6cb7;
+  border-bottom: 2px solid #4b6cb7;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Links */
+a {
+  color: #4b6cb7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
   background: #282c34;
   color: #fff;
+  margin-top: 2rem;
 }
