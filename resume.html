@@ -1,42 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Andy’s Portfolio - Resume</title>
-  <!-- Google Font: Story Script -->
-  <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Resume</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
 
-  <nav>
-    <a href="index.html">About Me</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="resume.html">Resume</a> |
-    <a href="contacts.html">Contacts</a>
-  </nav>
+    <meta
+      name="description"
+      content="Andrew Huang's mechanical engineering resume, technical skills, education, and engineering experience."
+    />
 
-  <section>
-    <h2>View / Download My Resume</h2>
+    <title>Resume | Andrew Huang</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <!-- PDF Viewer -->
-    <iframe src="Andrew%20Huang%20Resume.pdf" width="100%" height="600px" style="border:1px solid #ccc; border-radius: 8px;">
-      This browser does not support PDFs. Please download the PDF to view it:
-      <a href="Andrew%20Huang%20Resume.pdf" target="_blank">Download Resume</a>
-    </iframe>
+  <body>
+    <!-- Navigation -->
+    <header class="site-header">
+      <nav class="navbar">
+        <a href="index.html" class="logo"
+          >AH<span>.</span></a
+        >
 
-    <!-- Download link -->
-    <p style="margin-top: 1rem;">
-      <a href="Andrew%20Huang%20Resume.pdf" download>Download Resume</a>
-    </p>
-  </section>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="resume.html" class="active">Resume</a>
+          <a href="contacts.html">Contact</a>
+        </div>
+      </nav>
+    </header>
 
-  <footer>
-    <p>&copy; 2025 Andy</p>
-  </footer>
-</body>
+    <main>
+      <!-- Page Introduction -->
+      <section class="section resume-intro">
+        <p class="eyebrow">ENGINEERING PORTFOLIO</p>
+
+        <h1>My Resume</h1>
+
+        <p>
+          Mechanical Engineering student focused on
+          mechanical design, robotics, CAD modeling, and
+          computational engineering analysis. Explore my
+          education, technical qualifications, and
+          experience.
+        </p>
+
+        <div class="resume-actions">
+          <a
+            href="Andrew%20Huang%20Resume.pdf"
+            class="btn btn-primary"
+            download
+          >
+            Download Resume ↓
+          </a>
+
+          <a
+            href="Andrew%20Huang%20Resume.pdf"
+            class="btn btn-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open PDF ↗
+          </a>
+        </div>
+      </section>
+
+      <!-- Resume Highlights -->
+      <section class="section resume-highlights-section">
+        <div class="resume-highlights">
+          <article class="resume-highlight">
+            <p class="resume-highlight-number">3.54</p>
+            <h3>College GPA</h3>
+            <p>
+              Associate Degree in Mechanical Engineering
+            </p>
+          </article>
+
+          <article class="resume-highlight">
+            <p class="resume-highlight-number">03</p>
+            <h3>Engineering Projects</h3>
+            <p>
+              Suspension analysis, robotics, and structural
+              design
+            </p>
+          </article>
+
+          <article class="resume-highlight">
+            <p class="resume-highlight-number">2028</p>
+            <h3>Expected Graduation</h3>
+            <p>B.S. Mechanical Engineering · SFSU</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Resume PDF -->
+      <section class="section resume-document-section">
+        <div
+          class="section-heading resume-document-heading"
+        >
+          <div>
+            <p class="eyebrow">PROFESSIONAL DOCUMENT</p>
+            <h2>Resume Preview</h2>
+          </div>
+
+          <p class="resume-document-note">
+            Two-page professional resume · PDF
+          </p>
+        </div>
+
+        <div class="resume-viewer">
+          <iframe
+            src="Andrew%20Huang%20Resume.pdf"
+            title="Andrew Huang Mechanical Engineering Resume"
+            loading="lazy"
+          >
+            Your browser does not support embedded PDFs.
+            <a href="Andrew%20Huang%20Resume.pdf">
+              Open my resume here.
+            </a>
+          </iframe>
+        </div>
+
+        <p class="resume-viewer-caption">
+          You can scroll through the document above or
+          download a copy using the button at the top of
+          this page.
+        </p>
+      </section>
+
+      <!-- Contact Banner -->
+      <section class="contact-banner">
+        <p class="eyebrow">LET'S CONNECT</p>
+
+        <h2>Interested in my background?</h2>
+
+        <p>
+          I'm interested in opportunities involving
+          mechanical engineering, robotics, product
+          development, and engineering design.
+        </p>
+
+        <a href="contacts.html" class="btn btn-primary">
+          Contact Me
+        </a>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>
+        © 2026 Andrew Huang | Mechanical Engineering
+        Portfolio
+      </p>
+
+      <a
+        href="https://github.com/InfernalAether"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+    </footer>
+  </body>
 </html>
